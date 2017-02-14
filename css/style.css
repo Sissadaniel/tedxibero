@@ -145,12 +145,10 @@ h2 {
     padding-top: 50px;
 }
 h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #ff00ff;
-    font-size: 16px;
+    color: #ff2a2a;
+    font-size: 18px;
     margin: 0 0 5px 0;
-    text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 700;
 }
 #padtop a {
     font-family: 'Montserrat', sans-serif;
@@ -377,13 +375,13 @@ video#bgvid {
 }
 .main-nav li.disabled a {} .main-nav li a:hover {
     text-decoration: none;
-    color: #00ffff;
+    color: #ff0000;
 }
 .small-logo {
     padding: 0 32px;
 }
 .main-section {
-    padding: 90px 0 110px;
+    padding: 30px 0 110px;
 }
 /* Header contact form
 ---------------------------------*/
@@ -398,9 +396,9 @@ video#bgvid {
     right: 0%;
     bottom: 7%;
     z-index: 1001;
-    -moz-box-shadow: 0 0 15px #00ffff;
-    -webkit-box-shadow: 0 0 15px #00ffff;
-    box-shadow: 0px 0px 15px #00ffff;
+    -moz-box-shadow: 0 0 15px #fff;
+    -webkit-box-shadow: 0 0 15px #fff;
+    box-shadow: 0px 0px 15px #fff;
 }
 #header-form .header-text {
     padding: 1%;
@@ -411,7 +409,7 @@ video#bgvid {
 }
 #header-form p {
     font-size: large;
-    color: #ff00ff;
+    color: #fff;
     padding-right: 0;
 }
 #header-form form {
@@ -510,7 +508,7 @@ video#bgvid {
     overflow: hidden;
 }
 .main-section.alabaster {
-    background: #FFE2FA;
+    background: #000;
 }
 .alabaster figure {
     text-align: center;
@@ -594,60 +592,7 @@ video#bgvid {
     list-style: none;
     text-align: center;
 }
-.Portfolio-nav li {
-    margin: 0 10px;
-    display: inline;
-}
-.Portfolio-nav li a {
-    display: inline-block;
-    padding: 10px 22px;
-    font-size: 12px;
-    line-height: 20px;
-    color: #222222;
-    border-radius: 4px;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    background: #f7f7f7;
-    margin-bottom: 5px;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-.Portfolio-nav li a:hover {
-    background: #ff00ff;
-    color: #fff;
-    text-decoration: none;
-}
-.portfolioContainer {
-    margin: 0 auto;
-    padding-left: 15px;
-    max-width: 1140px;
-}
-.Portfolio-box {
-    text-align: center;
-    margin-bottom: 20px;
-    height: 300px;
-    width: 300px;
-    overflow: hidden;
-    float: left;
-    padding: 0px;
-    background-color: #000;
-    border-radius: 15px;
-}
-.Portfolio-box img {
-    margin-bottom: 25px;
-    transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-}
-.Portfolio-box img:hover {
-    opacity: 0.6;
-}
-.Portfolio-nav li a.current {
-    background: #00ffff;
-    color: #fff;
-    text-decoration: none;
-}
+
 img {
     max-width: 100%;
 }
@@ -965,13 +910,13 @@ img {
 }
 .input-text {
     padding: 15px 16px;
-    border: 1px solid #ff00ff;
+    border: 1px solid #fff;
     width: 100%;
     height: 50px;
     display: block;
     border-radius: 4px;
     font-size: 15px;
-    color: #00ffff;
+    color: #fff;
     font-family: 'Open Sans', sans-serif;
     /*
   margin: 0 0 15px 0;*/
@@ -982,7 +927,7 @@ img {
     background: #000000;
 }
 .input-text:focus {
-    border: 1px solid #00ffff;
+    border: 1px solid #fff;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(124, 197, 118, 0.3);
@@ -993,14 +938,14 @@ img {
     resize: none;
     overflow: auto;
     background: #000000;
-    color: #00ffff;
+    color: #fff;
 }
 .input-btn {
     width: 175px;
     height: 50px;
     color: #000;
     border-radius: 4px;
-    background: #00ffff;
+    background: #fc2121;
     font-size: 14px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
@@ -1011,8 +956,8 @@ img {
     -webkit-transition: all 0.3s ease-in-out;
 }
 .input-btn:hover {
-    background: #00ffff;
-    color: #ff00ff;
+    background: #fff;
+    color: #fff;
 }
 .validation {
     color: red;
@@ -1093,7 +1038,7 @@ img {
 .res-nav_click:hover,
 .res-nav_click:active,
 .res-nav_click:focus {
-    color: #7cc576 !important;
+    color: #f70b0b !important;
 }
 /* Animation Timers
 ---------------------------------*/
@@ -1198,7 +1143,7 @@ button {
     background: #000;
 }
 #padtop {
-    padding: 5% 0px 3% 0px;
+    padding: 12% 0px 3% 0px;
 }
 .gradientback p {
     color: #fff;
@@ -1533,4 +1478,13 @@ padding: 20px 40px 50px 20px
 
 .whitetext {
     color: white;
+}
+
+.textcenter {
+    text-align: center
+}
+
+.contacto_mobile {
+    background: #000;
+    padding-top: 30px
 }

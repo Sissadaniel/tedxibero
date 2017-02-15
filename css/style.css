@@ -41,7 +41,7 @@ nav .lang-switch {
 .lang-switch {
   position: fixed;
   z-index: 999;
-  color: #00ffff;
+  color: #fff;
   background-color: rgba(0, 0, 0, .7);
   padding: 1rem;
   bottom: -10px;
@@ -215,15 +215,7 @@ p2 {
 ---------------------------------*/
 
 .header {
-    /*
-  text-align: center;
-  background-image: url(../img/animeishonhero.gif);
-  padding: 280px 0;
-  background-size: cover;
-  background-position: center;
-  max-height: 90vh;
-  overflow: hidden;
-  */
+
 
     color: #fff;
     padding: 0px 0 0px 0;
@@ -611,7 +603,9 @@ img {
     transition-property: transform, opacity;
 }
 .main-section.paddind {
-    padding-bottom: 0px;
+    padding-bottom: 50px;
+    
+    
 }
 /* Clients
 ---------------------------------*/
@@ -1025,7 +1019,7 @@ img {
     font-family: 'FontAwesome';
     font-size: 38px;
     text-decoration: none !important;
-    color: #00ffff;
+    color: #fff;
     font-style: normal;
     display: none;
     width: 42px;
@@ -1140,7 +1134,13 @@ button {
     color: #00ffff;
 }
 .gradientback {
-    background: #000;
+background:
+radial-gradient(black 15%, transparent 16%) 0 0,
+radial-gradient(black 15%, transparent 16%) 8px 8px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+background-color:#282828;
+background-size:16px 16px;
 }
 #padtop {
     padding: 12% 0px 3% 0px;
@@ -1487,4 +1487,13 @@ padding: 20px 40px 50px 20px
 .contacto_mobile {
     background: #000;
     padding-top: 30px
+        
 }
+
+.big_redes {
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+

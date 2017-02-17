@@ -1141,6 +1141,7 @@ radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
 radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
 background-color:#282828;
 background-size:16px 16px;
+    background-attachment: fixed;
 }
 #padtop {
     padding: 12% 0px 3% 0px;
@@ -1497,3 +1498,25 @@ padding: 20px 40px 50px 20px
 }
 
 
+
+
+
+.xflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rowflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.small_font {
+    font-size: 13px;
+}
+
+.pad_bottom {
+    padding-bottom: 50px
+}

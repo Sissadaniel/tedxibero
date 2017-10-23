@@ -900,7 +900,9 @@ img {
     background: #ea4c89;
 }
 .form {
-    margin: 0px 0px 0px 0px;
+    margin: 0 auto;
+    max-width: 550px;
+    width: 100%;
 }
 .input-text {
     padding: 15px 16px;
@@ -1495,6 +1497,7 @@ padding: 20px 40px 50px 20px
     font-size: 100px;
     color: white;
     text-align: center;
+
 }
 
 
@@ -1519,4 +1522,33 @@ padding: 20px 40px 50px 20px
 
 .pad_bottom {
     padding-bottom: 50px
+}
+
+
+
+.small_icon {
+
+}
+
+
+
+.align_center {
+    justify-content: center;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.mar_top {
+        margin-top: 34px;
+}
+
+.100hero {
+        width: 100%;
+    text-align: center;
+}
+
+#header {
+    text-align: center
 }

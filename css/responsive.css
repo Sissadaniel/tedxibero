@@ -10,9 +10,7 @@
     .c-logo-part ul li {
         margin: 0 15px;
     }
-    .form {
-        margin: 0 0 0 0px;
-    }
+
     .main-nav {
         display: block !important;
     }
@@ -65,9 +63,7 @@
     .c-logo-part ul li a img {
         display: block;
     }
-    .form {
-        margin: 0;
-    }
+
     .contact-info-box {
         margin: 0;
     }
@@ -98,7 +94,7 @@
         font-size: 12px;
     }
     h2 {
-        font-size: 55px;
+        font-size: 45px;
     }
     h3 {
         font-size: 14px;
